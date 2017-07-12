@@ -1,0 +1,24 @@
+{
+  "local" : {
+    "database": "database",
+    "username": "dummyusername",
+    "password": "dummypassword",
+    "config": {
+      "dialect": "sqlite",
+      "storage": "mockData/database.sqlite"
+    }
+  },
+  "development" : {
+    "database": "",
+    "username":"",
+    "password": "",
+    "config": {
+      "dialect": "",
+      "host": "",
+      "port": "",
+      "define": {
+        "timestamps": false
+      }
+    }
+  }
+}
